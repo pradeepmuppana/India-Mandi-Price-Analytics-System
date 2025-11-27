@@ -1,0 +1,79 @@
+# ===== CREDENTIALS & SECRETS =====
+.env
+secrets.yml
+*.key
+*.pem
+
+# ===== DATA FILES =====
+data/raw/
+data/bronze/
+data/silver/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.json
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== dbt =====
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+dbt_project/manifest.json
+
+# ===== DAGSTER =====
+.dagster/
+*.log
+
+# ===== IDE & EDITOR =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+*.tmp
+
+# ===== SQL SERVER =====
+*.mdf
+*.ldf
+*.ndf
+
+# ===== COVERAGE =====
+.coverage
+htmlcov/
